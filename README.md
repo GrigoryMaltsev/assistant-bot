@@ -12,8 +12,3 @@
 - PGPASSWORD = пароль для базы
 - PGHOST = адрес для базы
 - POSTGRES_PASSWORD = ещё пароль для базы (без такой записи не соберётся контейнер)
-## Deploy on Heroku
-- `heroku login`
-- `heroku container:login`
-- `heroku container:push web --app grigorys-assistant-bot`
-- `heroku ps:scale worker=1`
