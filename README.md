@@ -12,3 +12,6 @@
 - PGPASSWORD = пароль для базы
 - PGHOST = адрес для базы
 - POSTGRES_PASSWORD = ещё пароль для базы (без такой записи не соберётся контейнер)
+## Подключение к серверу
+- `chmod 400 file_cer_path`
+- `ssh ubuntu@ip -i file_cer_path`
